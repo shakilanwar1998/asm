@@ -1,11 +1,4 @@
 <template>
-    <achievers
-        :headingTitle="goldTitle"
-        :employees="tenMillions"
-        :diamondImage="goldLogo"
-        :flagImage="flagImage"
-        :backgroundVideo="goldBackground"
-    ></achievers>
 
     <achievers
         :headingTitle="diamondTitle"
@@ -14,6 +7,15 @@
         :flagImage="flagImage"
         :backgroundVideo="diamondBackground"
     ></achievers>
+
+    <achievers
+        :headingTitle="goldTitle"
+        :employees="tenMillions"
+        :diamondImage="goldLogo"
+        :flagImage="flagImage"
+        :backgroundVideo="goldBackground"
+    ></achievers>
+
 </template>
 
 
