@@ -36,7 +36,9 @@ class FifteenMillionResource extends Resource
                     ->required()->options(function (){
                         return [
                             1 => '1st',
-                            2 => '2nd'
+                            2 => '2nd',
+                            3 => '3rd',
+                            4 => '4th'
                         ];
                     })
             ]);
